@@ -89,7 +89,7 @@ function getCurrentTime() {
   currentTime.innerHTML = formatDate(Math.floor(videoPlayer.currentTime));
 }
 
-async function setTotalTime() {
+function setTotalTime() {
   /*  const blob = await fetch(videoPlayer.src).then(response => response.blob());
   const duration = await getBlobDuration(blob);
   console.log(duration);*/
